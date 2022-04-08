@@ -1,0 +1,151 @@
+@media(max-width:1115px){
+    .li{
+        display: none;
+    }
+    .bar{
+        display: block;
+        margin-right: 10px;
+        font-size: 20px;
+        color:#ffffff ;
+    }
+    .sect2div1{
+        margin-left: 10px;
+        width: 320px;
+    }
+    .sect1div{
+        height: auto;
+    }
+    .section3div1{
+        margin-left: 10px;
+        max-width: 470px;
+        width: 100%;
+    }
+    .section3div2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .footerdiv1{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        height: auto;
+        margin:0 auto;
+    }
+    .footermaindiv{
+        height: auto;
+    }
+    .absolute{
+        height: auto;
+    }
+    .img1{
+        margin-left: 10px;
+        
+    }
+    .img2{
+        margin-left: 10px;
+        margin-top: 20px;
+        
+    }
+    .img3{
+        margin-left: 10px;
+        margin-top: 20px;
+    
+    }
+    .divblock1{
+        margin-left: 20px;
+
+    }
+    .divblock2{
+        max-width: 400px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .headermaindiv{
+        height: auto;
+    }
+    .headerdiv1{
+        margin-left: 0px;
+    }
+    .block3{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .block2{
+        margin-left:0px;
+        width: 50%;
+    }
+    .block1{
+        width: 50%;
+        margin-left: 0px;
+    }
+    .headerdiv2{
+        margin-left: 20px;
+    }
+    .logo{
+        margin-left: 20px;
+    } 
+}
+@media(max-width:768px){
+    .h2{
+        font-size: 25px;
+    }
+    .sect3h2{
+        font-size: 25px;
+    }
+    .sect2div1{
+        width: 230px;
+    }
+    .section3div1{
+        /* background-color: blueviolet; */
+        width: 290px;
+    }
+    .divblock2{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .block1{
+        
+    }
+    .block2{
+        margin-top: 20px;
+    }
+    .block3{
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 50%;
+    }
+    .lastdiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 250px;
+    }
+    .footerlastp1{
+        margin-top: 15px;
+    }
+}
+@media(max-width:485px){
+    .img1{
+        width: 290px;
+    }
+    .img2{
+        width: 290px;
+    }
+    .img3{
+        width: 290px;
+    }
+    .maindivbut{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:auto;
+    }
+    .locationdiv, .phonediv{
+        margin-top: 10px;
+    }
+    .divblock2{
+        width: 270px;
+    }
+}
